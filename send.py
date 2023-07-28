@@ -7,10 +7,10 @@ import pika
 
 
 RABBITMQ_USER = "landscape"
-RABBITMQ_PASSWORD = "ribbityrabbit"
-RABBITMQ_ADDRESS = "10.117.1.159"
-RABBITMQ_PORT = 5072
-RABBITMQ_VHOST = "landscape-windows-hostagent"
+RABBITMQ_PASSWORD = "landscape"
+RABBITMQ_ADDRESS = "10.117.1.111"
+RABBITMQ_PORT = 5672
+RABBITMQ_VHOST = "landscape-hostagent"
 
 parser = argparse.ArgumentParser()
 
